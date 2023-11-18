@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from laurel_sprout device
-$(call inherit-product, device/xiaomi/laurel_sprout/device.mk)
+$(call inherit-product, device/xiaomi/xun/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := xun
