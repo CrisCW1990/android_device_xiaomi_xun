@@ -23,7 +23,7 @@ AB_OTA_PARTITIONS += \
     odm \
     product \
     product
-BOARD_USES_RECOVERY_AS_BOOT := false
+BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
 TARGET_ARCH := arm64
